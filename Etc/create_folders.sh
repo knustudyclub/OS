@@ -6,17 +6,16 @@
 
 for i in $(seq -w 1 12); do
   # 주차 폴더 생성
-  mkdir -p "../Week $i/김준형" "../Week $i/윤정훈" "../Week $i/조재용"
+  #mkdir -p "../Week $i/김준형" "../Week $i/윤정훈" "../Week $i/조재용"
+  
+  mkdir -p "../Week $i"
 
   # 템플릿 파일을 각 이름 폴더로 복사
-  cp ../Template/Questions_Template.md "../Week $i/김준형/"
-  cp ../Template/Summery_Template.md "../Week $i/김준형/"
+  cp ../Template/Summery_Template.md "../Week $i/Summery(김준형).md"
 
-  cp ../Template/Questions_Template.md "../Week $i/윤정훈/"
-  cp ../Template/Summery_Template.md "../Week $i/윤정훈/"
+  cp ../Template/Summery_Template.md "../Week $i/Summery(윤정훈).md"
 
-  cp ../Template/Questions_Template.md "../Week $i/조재용/"
-  cp ../Template/Summery_Template.md "../Week $i/조재용/"
+  cp ../Template/Summery_Template.md "../Week $i/Summery(조재용).md"
 done
 
 
