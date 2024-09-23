@@ -5,6 +5,10 @@
 A+ 받기
 
 ## 📜 Rules
+- 매주 월요일 오후 7시에 진행(2시간)
+- 오프라인이 어려울 경우 미리 말하기
+- 발표자는 발표 전까지 해당회차 폴더에 발표자료 업로드
+- 최소 질문 1개, 질문에 대한 답변 1개 가져오기
 
 ## 👥 Members
 | <img src="https://avatars.githubusercontent.com/u/80797496?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/86221684?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/66457807?v=4" width="150" height="150"/> |
@@ -17,6 +21,7 @@ A+ 받기
 - sub : ppt, Operating System Concepts 10th
 
 ## 🛠 Study Procedure
+- 발표자가 학습내용 발표 -> Q&A 시간 -> 추가 내용정리 -> 요약
 
 ## 🗓 Study Schedule
 | Week | Date       | Topics Covered | Presenter | Notes |
