@@ -39,7 +39,8 @@ A+ 받기
 
 ### After Study
 
--   스터디 요약 및 발표자가 pr 정리하기
+-   스터디 요약 각자 폴더에 작성
+-   발표자가 pr 정리하기
 
 ## 🗓 Study Schedule
 
