@@ -2,7 +2,7 @@
 
 topic / important / question
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/4a3933b0-3451-4f91-b434-150c6d3f1b3b/image.png)
+![image.png](./images/1.png)
 
 ## Remind
 
@@ -21,7 +21,7 @@ topic / important / question
         - State element(sequential logic) : dependent both the **current inputs & the past history of inputs** / [출처](https://en.wikipedia.org/wiki/State_(computer_science))
     - What is Word?
         - [the natural unit of data used by a particular processor design.](https://en.wikipedia.org/wiki/Word_(computer_architecture)) = **different depending on the system**(ISA)
-- **What does it mean to have CPU privileges? / CPU의 권한을 갖는다의 의미**
+- <span style="background-color:#fff5b1"> **What does it mean to have CPU privileges? / CPU의 권한을 갖는다의 의미**</span>
     - **A process runs at a specific privilege level. / process가 특정 권한 수준에서 동작**
     - [Privilege Level](https://www.sciencedirect.com/topics/computer-science/privilege-level): Kernel mode(0), User mode(3)
         - → ARM에서는 모드 가 7단계 이면 mode bit이 2bit이 아닌가
@@ -82,7 +82,7 @@ topic / important / question
         - examples → illegal instruction
         - **aborts**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/e970df34-eede-4593-a7c4-2c734318a27a/image.png)
+![image.png](./images/2.png)
 
 ### Questions(김준형):
 
@@ -128,7 +128,7 @@ topic / important / question
 2. 
 3. 
 
-![Screenshot 2024-09-28 at 10.35.23 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/47fd4710-3468-4be5-8491-dc97d784e209/Screenshot_2024-09-28_at_10.35.23_PM.png)
+![](./images/3.png)
 
 ### References:
 
