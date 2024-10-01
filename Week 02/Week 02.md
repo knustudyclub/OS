@@ -21,7 +21,7 @@ topic / important / question
         - State element(sequential logic) : dependent both the **current inputs & the past history of inputs** / [출처](https://en.wikipedia.org/wiki/State_(computer_science))
     - What is Word?
         - [the natural unit of data used by a particular processor design.](https://en.wikipedia.org/wiki/Word_(computer_architecture)) = **different depending on the system**(ISA)
-- <span style="background-color:#fff5b1"> **What does it mean to have CPU privileges? / CPU의 권한을 갖는다의 의미**</span>
+- **What does it mean to have CPU privileges? / CPU의 권한을 갖는다의 의미**
     - **A process runs at a specific privilege level. / process가 특정 권한 수준에서 동작**
     - [Privilege Level](https://www.sciencedirect.com/topics/computer-science/privilege-level): Kernel mode(0), User mode(3)
         - → ARM에서는 모드 가 7단계 이면 mode bit이 2bit이 아닌가
