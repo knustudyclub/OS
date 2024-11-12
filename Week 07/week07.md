@@ -63,7 +63,7 @@
         ⇒ 검색 효율 🆙
         
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/421d14f9-cde1-487b-ae81-a2c3453f2188/image.png)
+![image.png](./image/1.png)
 
 ## Fairness
 
