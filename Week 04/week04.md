@@ -1,6 +1,6 @@
 ## Summary of Exception
 
-![image.png](../image/1.png)
+![image.png](./image/1.png)
 
 <Asynchronous>
 
