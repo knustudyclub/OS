@@ -1,6 +1,6 @@
 ## 7- State Model
 
-![OS_Ch4&5-22.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/64358747-8cff-4b0f-9eb3-30f0c2f6d8c7/OS_Ch45-22.jpg)
+![OS_Ch4&5-22.jpg](./image/1.jpg)
 
 - 기존 3, 5 state model 과의 큰 차이점은 suspend(ready, blocked) state이다.
 - OS 기준 우선 순위 : Running > Ready > Blocked
@@ -11,7 +11,7 @@
 
 : OS에서 관리하는 각 process의 신분증 !!!
 
-![OS_Ch4&5-28.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/238ac269-18ae-4815-ac5b-f1b1ac49c2bf/OS_Ch45-28.jpg)
+![OS_Ch4&5-28.jpg](./image/2.jpg)
 
 - 하나의 PCB에서 갖고 있는 정보들은 위와 같다.
 - process가 만들어지면 OS로부터 고유한 memory 영역(Kernel space)을 할당 받고, 여기에 PCB를 생성한다.
@@ -20,7 +20,7 @@
 
 # Process Scheduling
 
-![OS_Ch7-7.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/48078352-e32f-438f-a553-6da179cae328/OS_Ch7-7.jpg)
+![OS_Ch7-7.jpg](./image/3.jpg)
 
 각 state queue마다 scheduling이 필요하지만 여기선 ready queue에서 어느 process를 running state으로 이동시킬지에 관한 scheduling을 다룬다. (Short-term)
 
@@ -55,7 +55,7 @@ Impossible to optimize all of them simultaneously !! → 상황에 따라 최적
 
 아래의 가정을 세워놓고 하나씩 지워가며 scheduling metric을 평가함으로써 상황에 따라 어느 기법이 최적인지 알아보자.
 
-![스크린샷 2024-10-20 오후 11.25.01.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/c2e9cd9e-3114-4390-a852-5b8435cb9934/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-10-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11.25.01.png)
+![스크린샷 2024-10-20 오후 11.25.01.png](./image/4.png)
 
 ## Turnaround time (TAT)
 
@@ -111,7 +111,7 @@ Impossible to optimize all of them simultaneously !! → 상황에 따라 최적
 - Disk Arm
 - Disk Head
 
-![스크린샷 2024-10-21 오전 11.46.34.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/0a0ddcbb-15dd-4cc9-bc67-df41e6f4aeaf/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-10-21_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.46.34.png)
+![스크린샷 2024-10-21 오전 11.46.34.png](./image/5.png)
 
 data read & write 기능을 수행할 때, 특정 Platter의 K번째 Track부터 K+1, K+2 순으로 sequential하게 작성하는 것이 아니라, 여러 Platter의 K번째 Track에 동시에 작성한다.
 
