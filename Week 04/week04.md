@@ -28,7 +28,7 @@ Caused by events that occur as a result of executing an instruction, and trigger
 
 ## Handling Exception
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/70a60d28-7895-4973-a6a4-addd5db3558d/image.png)
+![image.png](./image/2.png)
 
 <exception 처리>
 
@@ -38,7 +38,7 @@ Caused by events that occur as a result of executing an instruction, and trigger
 - exception table에는 pointer가 있는데, 이때 pointer들은 해당 exception을 처리하기 위한 데이터와 코드가 있는 메모리 주소를 가리킴
 - 메모리 주소로 이동해서 이 데이터와 코드를 cpu가 수행함. (이때 handler들은 os에 있음 → kernel mode)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/5951f14c-1a63-4395-9fbd-4bcc1f2256fd/image.png)
+![image.png](./image/3.png)
 
 - Interrupt → hardware에서 신호가 온다. 이때, device마다 numbering이 되어 있어, 어디서 왔는지 쉽게 알 수 있다.
 - 예제에서 상황별 pc, psw 체크
@@ -52,9 +52,9 @@ Caused by events that occur as a result of executing an instruction, and trigger
     **→ I/O를 overlapping할 수 있다.**
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/40e95bc7-3899-4d7c-b082-1107c086aeca/image.png)
+![image.png](./image/4.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/fef24c74-3933-4e91-af3a-401a463d3acd/image.png)
+![image.png](./image/5.png)
 
 - Block Diagram of DMA
     - control logic: Read, DMA Request, DMA Acknowledgement, Interrupt, Write
@@ -87,7 +87,7 @@ Caused by events that occur as a result of executing an instruction, and trigger
 
 single core → 실제  cpu가 1개이지만 사용자에게는 무한 개인 것처럼 → time sharing
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/ac683784-03ca-4f97-a5c8-1df0a715ef7b/image.png)
+![image.png](./image/6.png)
 
 **#round-robin #time slice  #time-sharing**
 
@@ -95,13 +95,13 @@ os의 scheduling policies: CPU와 같은 자원을 여러 프로세스나 스레
 
 cf) scheduling algorithms 종류
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/1dbb927a-9a49-4eba-b391-8ff5c4bb44c5/image.png)
+![image.png](./image/7.png)
 
 ## How to Our Program Can Work on Processor
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/6d369006-e7b1-4354-a60f-f205622f1195/image.png)
+![image.png](./image/8.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/e21f9b8d-817f-4291-987d-db10eb3a2b3f/image.png)
+![image.png](./image/9.png)
 
 Code → Excutable Object File(실행 가능한 파일, Storage에 저장되어있음) 
 
@@ -158,7 +158,7 @@ Process vs Program
 
 ## Process States
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/e052c0ae-46ec-49d0-b956-9995facad6d1/image.png)
+![image.png](./image/10.png)
 
 |  | CPU에 대한 권한을 가지고 있는가? | 해당 Process를 수행하기 위해 필요한 자원을 다 가지고 있는가? |
 | --- | --- | --- |
@@ -166,7 +166,7 @@ Process vs Program
 | Ready state | x | o |
 | Blocked state | x | x |
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/53cda40c-c317-4e63-84b7-7178879f3447/image.png)
+![image.png](./image/11.png)
 
 - New (or created) state
     - process creation in Unix system by fork() system call
