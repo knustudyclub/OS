@@ -1,6 +1,6 @@
 ## Summary of Exception
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/93783ba1-b7bb-4a3a-a304-641290b223bc/c48d3601-b801-4fa8-b96b-adf90ac76427/image.png)
+![image.png](../image/1.png)
 
 <Asynchronous>
 
